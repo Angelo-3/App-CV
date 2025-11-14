@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angelo Junior Irakoze | CV</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <script src="/script.js" defer></script>
+    <header>
+        <h1 id="name"></h1>
+        <p id="title"></p>
+        <button id="theme-toggle" aria-label="Toggle theme">Theme</button>
+    </header>
+    
+    <main class="Container">
+        <section>
+        <h2>Summary</h2>
+        <p id="summary"></p>
+        </section>
+
+        <section>
+            <h2>Links</h2>
+            <ul id="links" class="chips"></ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul id="skills" class="chips"></ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div id="experience"></div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul id="education"></ul>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label>Name: <input name="name" type="text"></label>
+                <label>Profession: <input name="job" type="text"/></label>
+                <label>Email: <input name="email" type="email" required/></label>
+                <label>Message: <input textarea name="message" rows="4"/></label>
+                <button type="submit">Send</button>
+                <p id="contact-status" role="status" aria-live="polite"></p>
+                <p>Download <a href="/api/profile">PDF</a> CV</p>
+            </form>
+        </section>
+    </main>
+        <footer>
+        <p>© 2025 Irakoze Angelo Junior</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #5176b1;
+  margin: 0;
+  color: var(--fg);
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+title {
+  display: flex;
+  font-style: italic;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 0.6rem;
+  text-align: left;
+}
+
+thead {
+  background: grey;
+}
+
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    background-color: #243d65;
+  }
+
+  h1 {
+    position: fixed;
+    top: 0;
+  }
+}

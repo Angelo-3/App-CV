@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #5176b1;
+  margin: 0;
+  color: var(--fg);
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #243d65;
+  border-radius: 10px;
+  color: #f6f4f4;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+#exp-content {
+  display: none;
+}
+
+:root {
+  --bg: #0f172a;
+  --fg: #e2e8f0;
+  --muted: #94a3b8;
+  --card: #111827;
+  --chip: #1f2937;
+}
+
+:root.light {
+  --bg: #f8fafc;
+  --fg: #0f172a;
+  --muted: #334155;
+  --card: #ffffff;
+  --chip: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+h2 {
+  margin-top: 32px;
+  border-bottom: 1px solid var(--chip);
+  padding-bottom: 8px;
+}
+
+section {
+  background: var(--card);
+  padding: 16px;
+  border-radius: 16px;
+  margin-top: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+ul {
+  padding-left: 18px;
+}
+
+.chips {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chips li {
+  background: var(--chip);
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+#theme-toggle {
+  background: var(--chip);
+  color: var(--fg);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#experience .item {
+  margin-bottom: 16px;
+}
+
+#experience .role {
+  font-weight: 700;
+}
+
+#experience .meta {
+  color: var(--muted);
+}
+
+form label {
+  display: block;
+  margin: 8px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--chip);
+  background: transparent;
+  color: var(--fg);
+}
+
+button[type="submit"] {
+  margin-top: 8px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 0;
+  background: var(--chip);
+  color: var(--fg);
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #243d65;
+  color: wheat;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .Container {
+    flex-direction: column;
+  }
+}
