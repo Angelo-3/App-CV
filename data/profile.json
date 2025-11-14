@@ -20,7 +20,9 @@
       "period": "Feb 2024 – Present",
       "points": [
         "Managed user authN/authZ.",
-        "L2 troubleshooting network, applications and hardware, printer and software installations.",
+        "L2 troubleshooting network, applications and hardware, printer and software installations using powershell scripts.",
+        "Identifying and resolving where possible issues using telnet",
+        "Correcting data transfer using sql script",
         "Ticketing (SNOW and oracle/java based applications), documentation(MS Excel), and user training(MS Teams and powerpoint presentations)."
       ]
     },
