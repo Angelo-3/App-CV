@@ -1,0 +1,74 @@
+{
+  "name": "Angelo Junior Irakoze",
+  "title": "Software Engineer | IT Support",
+  "location": "Warsaw, Poland",
+  "summary": "IT Help Desk / Service Desk professional expanding into softwar Engineering (specifically backend with Express.js and flask). Feel free to check out my github and linkedin profiles",
+
+  "links": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/angelo-junior-irakoze" },
+    { "label": "GitHub", "url": "https://github.com/angelo-3" }
+  ],
+
+  "skills": [
+     "javascript", "express.js", "SQL", "SQLite", "python", "flask", "c#", "networking", "troubleshooting", "IAM Systems", "SAP Service Now"
+     ],
+
+  "experience": [
+    {
+      "role": "2nd Level IT Retail Support",
+      "company": "Diebold Nixdorf",
+      "period": "Feb 2024 – Present",
+      "points": [
+        "Managed user authN/authZ.",
+        "L2 troubleshooting network, applications and hardware, printer and software installations.",
+        "Ticketing (SNOW and oracle/java based applications), documentation(MS Excel), and user training(MS Teams and powerpoint presentations)."
+      ]
+    },
+    {
+      "role": "1st Level Support Specialist",
+      "company": "Diebold Nixdorf",
+      "period": "Nov 2022 - Feb 2024",
+      "points": [
+        "L1 troubleshooting network and hardware",
+        "Ticketing (SNOW and oracle/java based applications), documentation(MS Excel), and user training(MS Teams and powerpoint presentations)."
+      ]
+    },
+    {
+      "role": "Senior 1st Level IT Helpdesk",
+      "company": "Teleperformance",
+      "period": "Jan 2022 - Nov 2022",
+      "points": [
+        "L1 troubleshooting network and hardware",
+        "Ticketing (SNOW), documentation(MS Excel), and user training(MS Teams and powerpoint presentations).", 
+        "Monitoring and training of L1."
+      ]
+    },
+    {
+      "role": "1st Level IT Helpdesk",
+      "company": "Teleperformance",
+      "period": "Jun 2021 - Jan 2022",
+      "points": [
+        "L1 troubleshooting network and hardware",
+        "Ticketing (SNOW), documentation(MS Excel), and user training(MS Teams and powerpoint presentations)."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "school": "PJATK",
+      "program": "Software Engineering",
+      "period": "—"
+    }, 
+    {
+      "school": "IFAK",
+      "program": "Math and earth sciences",
+      "period": "2013-2018"
+    },
+    {
+      "school": "EIK",
+      "program": "Primary education",
+      "period": "2007-2012"
+    }
+  ]
+}
