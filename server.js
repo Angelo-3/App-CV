@@ -11,7 +11,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "Client")));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(path.join(__dirname, "Client", "index.html"));
+});
+
+app.get("/api/get/contacts", (req, res) => {
+  res.sendFile(path.join(__dirname, "Client", "contacts.html"));
 });
 
 //Loading JSON profile to script.js
