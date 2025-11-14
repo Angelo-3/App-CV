@@ -11,29 +11,29 @@ const jsonFetch = async (url, opts) => {
   return res.json();
 };
 
-// async function loadData() {
-//   //using AJAX
-//   try {
-//     //Fetch contact data from server
-//     fetch("/api/admin/contact")
-//       .then((response) => response.json())
-//       .then((data) => {
-//         console.log(`Data loaded in script ${data}`);
-//         const tbody = document.querySelector("#contacts tbody");
-//         tbody.innerHTML = "";
-//         data.forEach((c) => {
-//           const tr = document.createElement("tr");
-//           tr.innerHTML = `<td>${c.name}</td><td>${c.job}</td><td>${c.message}</td><td>${c.created_at}</td>`;
-//           tbody.appendChild(tr);
-//         });
-//       });
-//   } catch (e) {
-//     console.error(e);
-//     const tbody = document.querySelector("#contacts tbody");
-//     if (tbody)
-//       tbody.innerHTML = `<tr><td colspan="4">Failed to load contacts.</td></tr>`;
-//   }
-// }
+async function loadData() {
+  //using AJAX
+  try {
+    //Fetch contact data from server
+    fetch("/api/admin/contact")
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(`Data loaded in script ${data}`);
+        const tbody = document.querySelector("#contacts tbody");
+        tbody.innerHTML = "";
+        data.forEach((c) => {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `<td>${c.name}</td><td>${c.job}</td><td>${c.message}</td><td>${c.created_at}</td>`;
+          tbody.appendChild(tr);
+        });
+      });
+  } catch (e) {
+    console.error(e);
+    const tbody = document.querySelector("#contacts tbody");
+    if (tbody)
+      tbody.innerHTML = `<tr><td colspan="4">Failed to load contacts.</td></tr>`;
+  }
+}
 
 async function mainPage() {
   // Theme toggle
